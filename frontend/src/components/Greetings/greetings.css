@@ -1,0 +1,21 @@
+.container__greetings {
+    background-image: url('../../assets/home-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetings_wrapper {
+    background-color: var(--bg-transparent);
+}
+
+h1,h2,h3 {
+    margin: 0;
+    padding: 0.5rem 0;
+    color: var(--tertiary-color);
+}
